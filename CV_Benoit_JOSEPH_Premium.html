@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Premium 2026 - Benoit JOSEPH</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f7; }
+        .page { max-width: 210mm; height: 297mm; background: white; margin: 20px auto; padding: 40px 48px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1); page-break-after: always; }
+        .header { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 2px solid #00d9ff; }
+        .name { font-size: 32px; font-weight: 800; color: #0f1f3f; margin-bottom: 8px; }
+        .title { font-size: 14px; font-weight: 600; color: #00d9ff; margin-bottom: 2px; }
+        .subtitle { font-size: 12px; color: #666; font-weight: 500; }
+        .contact { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; margin-top: 12px; font-size: 11px; color: #555; }
+        .contact-item { display: flex; gap: 6px; }
+        .contact-label { font-weight: 600; color: #0f1f3f; }
+        .section { margin-bottom: 28px; }
+        .section-title { font-size: 11px; font-weight: 700; color: #0f1f3f; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #e5e5e7; }
+        .profile-text { font-size: 12px; line-height: 1.7; color: #333; }
+        .profile-text strong { color: #0f1f3f; font-weight: 600; }
+        .skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+        .skill-badge { background: #f5f5f7; border: 1px solid #e5e5e7; padding: 10px 14px; border-radius: 6px; font-size: 11px; font-weight: 500; color: #0f1f3f; text-align: center; }
+        .skills-note { font-size: 10px; color: #999; margin-top: 12px; }
+        .achievements { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+        .achievement { background: #f9f9fb; padding: 12px 14px; border-radius: 6px; border-left: 3px solid #00d9ff; font-size: 11px; color: #333; font-weight: 500; }
+        .achievement::before { content: "✓ "; color: #00d9ff; }
+        .experience { margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid #e5e5e7; }
+        .experience:last-child { border-bottom: none; }
+        .exp-header { display: flex; justify-content: space-between; margin-bottom: 6px; }
+        .exp-title { font-size: 12px; font-weight: 700; color: #0f1f3f; }
+        .exp-dates { font-size: 10px; color: #999; }
+        .exp-company { font-size: 11px; color: #00d9ff; font-weight: 600; margin-bottom: 8px; }
+        .exp-details { font-size: 11px; color: #555; margin-bottom: 8px; }
+        .exp-list { font-size: 10px; color: #666; }
+        .exp-item { display: flex; gap: 8px; margin-bottom: 5px; }
+        .exp-item::before { content: "•"; color: #00d9ff; font-weight: 700; }
+        .education { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 11px; }
+        .edu-title { font-weight: 600; color: #0f1f3f; }
+        .edu-year { color: #999; }
+        @media print { body { background: white; } .page { box-shadow: none; margin: 0; } }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <div class="header">
+        <div class="name">Benoit JOSEPH</div>
+        <div class="title">Senior DevOps Engineer • Expert Kubernetes • Observability Engineer</div>
+        <div class="subtitle">Platform Engineering • Cloud Native • DevOps • SRE</div>
+        <div class="contact">
+            <div class="contact-item"><span class="contact-label">Tél</span><span>+33 6 22 32 32 76</span></div>
+            <div class="contact-item"><span class="contact-label">Email</span><span>benoitjoseph84@gmail.com</span></div>
+            <div class="contact-item"><span class="contact-label">Localité</span><span>Cannes</span></div>
+            <div class="contact-item"><span class="contact-label">Mobilité</span><span>Télétravail & Intl</span></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Profil</div>
+        <div class="profile-text"><strong>Expert Platform Engineer avec 20+ ans d'expérience</strong> en infrastructure, DevOps et Kubernetes. Spécialisé dans la <strong>conception et industrialisation de plateformes Cloud Native critiques</strong>. Expertise avancée en observabilité multistack (OpenTelemetry, Prometheus, Grafana, Loki, Tempo, ELK). <strong>Développeur backend Python</strong>, architecte infrastructure et <strong>support N3 Kubernetes</strong>. Maîtrise complète du cycle complet : architecture, automation, déploiement et exploitation de systèmes distribués hautement disponibles.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Compétences Clés</div>
+        <div class="skills-grid">
+            <div class="skill-badge">☸ Kubernetes</div>
+            <div class="skill-badge">🐳 Docker & Containerd</div>
+            <div class="skill-badge">⚙ Helm & Kustomize</div>
+            <div class="skill-badge">🎯 GitOps & ArgoCD</div>
+            <div class="skill-badge">📡 OpenTelemetry</div>
+            <div class="skill-badge">📊 Prometheus & Grafana</div>
+            <div class="skill-badge">📈 Loki & Tempo</div>
+            <div class="skill-badge">🔍 ELK Stack</div>
+            <div class="skill-badge">🐍 Python & Go</div>
+            <div class="skill-badge">💻 Bash & Scripting</div>
+            <div class="skill-badge">🚀 GitLab CI/CD</div>
+            <div class="skill-badge">📦 Terraform & Ansible</div>
+            <div class="skill-badge">☁ Kubernetes Admin</div>
+            <div class="skill-badge">🔐 RBAC & Security</div>
+            <div class="skill-badge">🌐 REST APIs</div>
+            <div class="skill-badge">🐧 Linux Avancé</div>
+        </div>
+        <div class="skills-note">+ OpenStack, AWS, Azure, etcd, CNI, CSI, Ingress, HA architectures...</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Réalisations Clés</div>
+        <div class="achievements">
+            <div class="achievement">Conception plateforme d'observabilité Cloud Native</div>
+            <div class="achievement">Industrialisation 20 clusters Kubernetes HA</div>
+            <div class="achievement">Architecture OpenTelemetry multistack</div>
+            <div class="achievement">Développement outils internes Python/Go</div>
+            <div class="achievement">Expertise N3 Kubernetes & troubleshooting</div>
+            <div class="achievement">Pilotage migrations multi-applications K8s</div>
+            <div class="achievement">Architecture Prometheus/Grafana/Alertmanager</div>
+            <div class="achievement">Automatisation infrastructure & CI/CD GitLab</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Expériences Majeures</div>
+        
+        <div class="experience">
+            <div class="exp-header">
+                <div><div class="exp-title">Senior DevOps Engineer & Observability Engineer</div><div class="exp-company">FDJ UNITED • Équipe Métrologie & Observabilité</div></div>
+                <div class="exp-dates">Juil 2025 – Auj.</div>
+            </div>
+            <div class="exp-details"><strong>Conception et évolution d'une plateforme Cloud Native d'observabilité</strong> complète. Responsable architecture, développement backend et industrialisation.</div>
+            <div class="exp-list">
+                <div class="exp-item">Architecture OpenTelemetry : collectors, pipelines Metrics/Logs/Traces</div>
+                <div class="exp-item">Backend Python : API REST, outils internes, dashboards custom</div>
+                <div class="exp-item">Stack : Prometheus, Grafana, Alertmanager, Loki, Tempo, ELK</div>
+                <div class="exp-item">Déploiement Kubernetes via Helm/GitOps, CI/CD GitLab, Ansible</div>
+                <div class="exp-item">Expertise N3 : troubleshooting K8s, optimisation perf, architecture HA</div>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="exp-header">
+                <div><div class="exp-title">Expert Kubernetes & Platform Engineer</div><div class="exp-company">Synchrone / Crédit Agricole</div></div>
+                <div class="exp-dates">Juil 2023 – Juil 2025</div>
+            </div>
+            <div class="exp-details"><strong>Administration et expertise avancée de 20 clusters Kubernetes</strong> pour infrastructure critique. Référent technique et support N3.</div>
+            <div class="exp-list">
+                <div class="exp-item">Architecture clusters HA : Control Plane, etcd, RBAC, Network Policies</div>
+                <div class="exp-item">CNI/CSI, Ingress controllers, capacity planning, troubleshooting avancé</div>
+                <div class="exp-item">GitOps/ArgoCD, Helm, Kustomize, Terraform, Ansible</div>
+                <div class="exp-item">Sécurité, haute disponibilité, support N3 pour 50+ services</div>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="exp-header">
+                <div><div class="exp-title">Lead DevOps & Lead Technique Observabilité</div><div class="exp-company">Synchrone / Orange</div></div>
+                <div class="exp-dates">Juil 2018 – Juil 2023</div>
+            </div>
+            <div class="exp-details"><strong>Pilotage technique et expertise DevOps/Observabilité</strong>. Migration multi-applications Docker Swarm → Kubernetes.</div>
+            <div class="exp-list">
+                <div class="exp-item">Kubernetes : orchestration distribuée, multi-services, HA, scaling</div>
+                <div class="exp-item">Observabilité : Prometheus, Grafana, ELK, alerting, SLO/SLI</div>
+                <div class="exp-item">CI/CD GitLab : pipelines complexes, automatisation multi-environnements</div>
+                <div class="exp-item">Résolution incidents critiques, optimisation perf, architecture cloud</div>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="exp-header">
+                <div><div class="exp-title">Ingénieur DevOps</div><div class="exp-company">GFI / Amadeus</div></div>
+                <div class="exp-dates">Oct 2017 – Juil 2018</div>
+            </div>
+            <div class="exp-details">CI/CD avancée, automatisation multi-environnements, monitoring, déploiements distribués.</div>
+        </div>
+
+        <div class="experience">
+            <div class="exp-header">
+                <div><div class="exp-title">Ingénieur Production & Leader Technique</div><div class="exp-company">Sopra Steria</div></div>
+                <div class="exp-dates">Oct 2011 – Oct 2017</div>
+            </div>
+            <div class="exp-details">Expertise infrastructure pour clients majeurs. Architecture, automatisation, support N2/N3.</div>
+        </div>
+
+        <div class="experience">
+            <div class="exp-header">
+                <div><div class="exp-title">Administrateur Systèmes & Réseaux</div><div class="exp-company">Consort NT / Orange</div></div>
+                <div class="exp-dates">Juin 2006 – Oct 2011</div>
+            </div>
+            <div class="exp-details">Fondation Linux et infrastructure. Administration avancée, HA, infrastructure critique.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Formation & Certifications</div>
+        <div class="education">
+            <span class="edu-title">Administration Avancée Clusters Kubernetes</span>
+            <span class="edu-year">2023</span>
+        </div>
+        <div style="font-size: 10px; color: #999; margin-top: 5px;">Architecture • Haute Disponibilité • Sécurité • Troubleshooting</div>
+    </div>
+</div>
+
+</body>
+</html>
